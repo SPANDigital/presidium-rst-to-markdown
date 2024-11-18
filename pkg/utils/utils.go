@@ -12,13 +12,11 @@ import (
 	"rst2md/pkg/config"
 )
 
+var whiteSpaceReg = regexp.MustCompile(`\s+`)
+
 // GenerateSlug creates a URL-friendly slug from a string.
 func GenerateSlug(input string) string {
-	s := strings.ToLower(strings.TrimSpace(input))
-	s = strings.ReplaceAll(s, " ", "_")
-	reg := regexp.MustCompile(`[^\w]+`)
-	s = reg.ReplaceAllString(s, "")
-	return s
+	return whiteSpaceReg.ReplaceAllString(strings.ToLower(strings.TrimSpace(input)), "_")
 }
 
 // IsDirEmpty checks if a directory is empty.
