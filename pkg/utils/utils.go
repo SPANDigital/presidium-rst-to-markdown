@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"rst2md/pkg/config"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/config"
 )
 
 var whiteSpaceReg = regexp.MustCompile(`\s+`)
