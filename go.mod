@@ -1,4 +1,4 @@
-module rst2md
+module github.com/spandigital/presidium-rst-to-markdown
 
 go 1.23
 
