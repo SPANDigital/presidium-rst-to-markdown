@@ -41,7 +41,7 @@ jobs:
           # Your GoReleaser Pro key, if you are using the 'goreleaser-pro' distribution
           # GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}
   kos:
-    - repository: ghcr.io/caarlos0/test-ko
+    - repository: ghcr.io/spandigital/rst2md
       tags:
         - "{{.Version}}"
         - latest
