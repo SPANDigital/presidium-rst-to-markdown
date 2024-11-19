@@ -7,7 +7,7 @@ A cli tool: rst2md, convert reStructuredText to a Presidium Docsite.
 As rst2md shells out to pandoc, before you install rst2md please [install]
 (https://pandoc.org/installing.html) [Pandoc](https://pandoc.org/) for your platform.
 
-xw## Installation methods
+## Installation
 
 Choose one installation method, they are listed in order of preference
 
@@ -32,4 +32,5 @@ go install github.com/spandigital/presidium-rst-to-markdown/cmd/rst2md
 ### Source code and pre-built binaries
 
 Source code and pre-built binaries can be found on the [releases](/releases)
+
 
