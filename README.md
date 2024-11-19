@@ -35,6 +35,13 @@ Source code and pre-built binaries for various architecutrs can be found at [rel
 
 ## Tools Required for Development
 
+#### Golangci-lint
+
+```brew
+brew install golangci-lint
+brew upgrade golangci-lint
+```
+
 ### Nodejs
 
 You should have LTS version of NodeJS installed
