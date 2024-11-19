@@ -42,10 +42,10 @@ jobs:
           # GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}
 
   dockers:
-    - image_templates:
-      - "spandigital/rst2cmd:{{ .Tag }}"
-      - "spandigital/rst2cmd:v{{ .Major }}"
-      - "spandigital/rst2cmd:v{{ .Major }}.{{ .Minor }}"
-      - "spandigital/rst2cmd:latest"
-      - "gcr.io/spandigital/rst2cmd:{{ .Tag }}"
-      - "gcr.io/spandigital/rst2cmd:latest"
+  - image_templates:
+    - "spandigital/rst2cmd:{{ .Tag }}"
+    - "spandigital/rst2cmd:v{{ .Major }}"
+    - "spandigital/rst2cmd:v{{ .Major }}.{{ .Minor }}"
+    - "spandigital/rst2cmd:latest"
+    - "gcr.io/spandigital/rst2cmd:{{ .Tag }}"
+    - "gcr.io/spandigital/rst2cmd:latest"
