@@ -33,7 +33,7 @@ go install github.com/spandigital/presidium-rst-to-markdown/cmd/rst2md
 
 Source code and pre-built binaries for various architecutrs can be found at [releases](/releases)
 
-## Development
+## Tools Required for Development
 
 ### Nodejs
 
@@ -56,12 +56,18 @@ npm install -g @commitlint/cli @commitlint/config-conventional
 
 To install pre-commit
 
+On MacOSX
 ```shell
 brew install pre-commit
 ```
 
-Run to install git hook scrips
+## Clone and install pre-commit hooks
 
 ```shell
+git clone git@github.com:SPANDigital/presidium-rst-to-markdown.git
 pre-commit install
 ```
+
+## Commit messages
+
+Commit messages to adhere to the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
