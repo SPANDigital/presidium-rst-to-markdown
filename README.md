@@ -8,6 +8,18 @@ Before you install rst2md please install https://pandoc.org/installing.html [Pan
 
 ## Installation methods
 
+Choose one installation method, they are listed in order of preference
+
+### Via homebrew
+
+This requires [homebrew](https://brew.sh/) to be installed.
+
+```shell
+brew tap SPANDigital/homebrew-tap
+brew update
+brew install rst2md
+```
+
 ### Via go install
 
 This requires as least [Go 1.22.x](https://go.dev/doc/install) to be installed for your operating system.
