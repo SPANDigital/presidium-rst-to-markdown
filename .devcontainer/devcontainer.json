@@ -7,12 +7,18 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
+  "features": {
+	"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
+    "ghcr.io/devcontainers/features/node:1": {},
+	"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {}
+  },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "go version",
+      "postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm install --lts && npm install -g @commitlint/cli @commitlint/config-conventional && pre-commit install",
 
 	// Configure tool-specific properties.
   "customizations" : {
