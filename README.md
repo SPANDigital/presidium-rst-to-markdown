@@ -1,16 +1,16 @@
-# presidium-rst-to-markdown
+# presidium-rst-to-markdown (rst2md)
 
-Presidium-rst-to-markdown or rst2md
+A cli tool: rst2md, convert reStructuredText to a Presidium Docsite.
 
 ## Prerequesite: Pandoc
 
-Before you install rst2md please install https://pandoc.org/installing.html [Pandoc](https://pandoc.org/) for your platform.
-
+As rst2md shells out to pandoc, before you install rst2md please install
+https://pandoc.org/installing.html [Pandoc](https://pandoc.org/) for your platform.
 ## Installation methods
 
 Choose one installation method, they are listed in order of preference
 
-### Via homebrew
+### Via homebrew (recommended)
 
 This requires [homebrew](https://brew.sh/) to be installed.
 
@@ -20,7 +20,7 @@ brew update
 brew install rst2md
 ```
 
-### Via go install
+### Via go install (for go developers)
 
 This requires as least [Go 1.22.x](https://go.dev/doc/install) to be installed for your operating system.
 
@@ -30,5 +30,5 @@ go install github.com/spandigital/presidium-rst-to-markdown/cmd/rst2md
 
 ### Source code and pre-built binaries
 
-Source code and pre-built binaries can be found here.
+Source code and pre-built binaries can be found on the [releases](/releases)
 
