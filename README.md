@@ -25,12 +25,43 @@ brew install rst2md
 
 This requires as least [Go 1.22.x](https://go.dev/doc/install) to be installed for your operating system.
 
-```bash
+```shell
 go install github.com/spandigital/presidium-rst-to-markdown/cmd/rst2md
 ```
 
 ### Source code and pre-built binaries
 
-Source code and pre-built binaries can be found on the [releases](/releases)
+Source code and pre-built binaries for various architecutrs can be found at [releases](/releases)
 
+## Development
 
+### Nodejs
+
+You should have LTS version of NodeJS installed
+
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+nvm install --lts
+```
+
+### commitlint
+
+For linting conventional commits
+
+```shell
+npm install -g @commitlint/cli @commitlint/config-conventional
+```
+
+### Pre-commit hooks
+
+To install pre-commit
+
+```shell
+brew install pre-commit
+```
+
+Run to install git hook scrips
+
+```shell
+pre-commit install
+```
