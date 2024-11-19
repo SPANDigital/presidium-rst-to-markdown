@@ -57,7 +57,7 @@ Usage of rst2md:
 
 ```brew
 brew install golangci-lint
-brew upgradest golangci-lint
+brew upgrade golangci-lint
 ```
 
 ### Nodejs
