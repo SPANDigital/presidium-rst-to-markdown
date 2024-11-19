@@ -4,8 +4,8 @@ A cli tool: rst2md, convert reStructuredText to a Presidium Docsite.
 
 ## Prerequesite: Pandoc
 
-As rst2md shells out to pandoc, before you install rst2md please [install]
-(https://pandoc.org/installing.html) [Pandoc](https://pandoc.org/) for your platform.
+As rst2md shells out to pandoc, before you install rst2md please [install](https://pandoc.org/installing.html)
+[Pandoc](https://pandoc.org/) for your platform.
 
 ## Installation
 
