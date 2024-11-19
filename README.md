@@ -4,7 +4,7 @@ Presidium-rst-to-markdown or rst2md
 
 ## Prerequesite: Pandoc
 
-Before you install rst2md please https://pandoc.org/installing.html [Pandoc](https://pandoc.org/) for your platform.
+Before you install rst2md please install https://pandoc.org/installing.html [Pandoc](https://pandoc.org/) for your platform.
 
 ## Installation methods
 

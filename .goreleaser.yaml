@@ -16,7 +16,8 @@ before:
     - go generate ./...
 
 builds:
-  - main: ./cmd/rst2md
+  - id: rst2md
+    main: ./cmd/rst2md
     binary: rst2md
     env:
       - CGO_ENABLED=0
@@ -47,13 +48,9 @@ changelog:
       - "^docs:"
       - "^test:"
 
-kos:
-  - repository: ghcr.io/spandigital/rst2md
-    tags:
-      - "{{.Version}}"
-      - latest
-    bare: true
-    preserve_import_paths: false
-    platforms:
-      - linux/amd64
-      - linux/arm64`
+brews:
+  - name: rst2md
+    repository:
+      owner: spandigitial
+      name: homebrew-tap
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
