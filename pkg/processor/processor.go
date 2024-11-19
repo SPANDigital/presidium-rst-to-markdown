@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"rst2md/pkg/config"
-	"rst2md/pkg/converter"
-	"rst2md/pkg/types"
-	"rst2md/pkg/utils"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/config"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/converter"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/types"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/utils"
 
 	"gopkg.in/yaml.v2"
 )

@@ -1,5 +1,5 @@
-module rst2md
+module github.com/spandigital/presidium-rst-to-markdown
 
-go 1.23
+go 1.22
 
 require gopkg.in/yaml.v2 v2.4.0

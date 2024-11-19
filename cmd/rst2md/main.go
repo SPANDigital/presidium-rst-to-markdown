@@ -4,8 +4,8 @@ import (
 	"io"
 	"log"
 
-	"rst2md/pkg/config"
-	"rst2md/pkg/processor"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/config"
+	"github.com/spandigital/presidium-rst-to-markdown/pkg/processor"
 )
 
 func main() {
