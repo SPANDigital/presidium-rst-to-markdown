@@ -51,6 +51,6 @@ changelog:
 brews:
   - name: rst2md
     repository:
-      owner: spandigitial
+      owner: spandigital
       name: homebrew-tap
       token: "{{ .Env.TAP_GITHUB_TOKEN }}"
