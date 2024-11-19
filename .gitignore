@@ -32,3 +32,5 @@ go.work.sum
 
 # Binary directory
 bin/
+
+dist/
