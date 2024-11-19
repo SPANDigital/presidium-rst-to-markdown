@@ -28,10 +28,28 @@ This requires as least [Go 1.22.x](https://go.dev/doc/install) to be installed f
 ```shell
 go install github.com/spandigital/presidium-rst-to-markdown/cmd/rst2md
 ```
-
 ### Source code and pre-built binaries
 
 Source code and pre-built binaries for various architecutrs can be found at [releases](/releases)
+
+## Usage
+
+```
+Usage of rst2md:
+  -depth int
+        Heading depth level to split sections (default 2)
+  -force
+        Force overwrite of output directory
+  -input string
+        Input directory
+  -output string
+        Output directory
+  -pandoc-path string
+        Path to the Pandoc executable (default "pandoc")
+  -parallel int
+        Maximum number of parallel processes (default 4)
+  -v    Enable verbose logging
+```
 
 ## Tools Required for Development
 
