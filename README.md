@@ -1,8 +1,8 @@
 # presidium-rst-to-markdown (rst2md)
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/SPANDigital/presidium-rst-to-markdown)
-![Go Dev](https://github.com/SPANDigital/presidium-rst-to-markdown/actions/workflows/go.yml/badge.svg?branch=dev)
-![Go Main](https://github.com/SPANDigital/presidium-rst-to-markdown/actions/workflows/go.yml/badge.svg?branch=main)
+![Go Dev](https://github.com/SPANDigital/presidium-rst-to-markdown/actions/workflows/go.yml/badge.svg?branch=dev&label=Go%20dev)
+![Go Main](https://github.com/SPANDigital/presidium-rst-to-markdown/actions/workflows/go.yml/badge.svg?branch=main&label=Go%20main)
 
 A cli tool: rst2md, convert reStructuredText to a Presidium Docsite.
 
