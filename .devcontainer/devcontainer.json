@@ -8,7 +8,7 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
+	"ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/guiyomh/features/golangci-lint:0": {},
     "ghcr.io/guiyomh/features/goreleaser:0": {},
 	"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
@@ -21,7 +21,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "go version",
-      "postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm install --lts && npm install -g @commitlint/cli @commitlint/config-conventional",
+      "postCreateCommand": "",
 
 	// Configure tool-specific properties.
   "customizations" : {
