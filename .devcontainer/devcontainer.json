@@ -31,7 +31,7 @@
   },
 
   "mounts": [
-    "type=bind,source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,readonly"
+    "type=bind,source=/Users/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,readonly"
   ]
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
