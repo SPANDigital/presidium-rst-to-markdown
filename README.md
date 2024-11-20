@@ -62,7 +62,7 @@ brew upgrade golangci-lint
 
 ### Nodejs
 
-You should have LTS version of NodeJS installed
+You should have LTS version of NodeJS installed.
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
