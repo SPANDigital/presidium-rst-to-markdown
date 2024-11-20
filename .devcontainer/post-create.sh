@@ -1,4 +1,14 @@
 #!/bin/sh
+
+# Running inside docker
+if ! [ -f "/.dockerenv" ]
+then
+    echo "Error: This script must be run inside a docker container"
+    exit 1
+fi
+
+source .env
+
 # Git Configuration
 git config --global --add safe.directory ${WORKSPACE_FOLDER}
 
