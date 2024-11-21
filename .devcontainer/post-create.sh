@@ -10,7 +10,7 @@ fi
 source .env
 
 # Git Configuration
-git config --global --add safe.directory ${WORKSPACE_FOLDER}
+git config --global --add safe.directory ${localWorkspaceFolder}
 
 git config --global user.name "${GITHUB_USER}"
 git config --global user.email "${GITHUB_EMAIL}"
